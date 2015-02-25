@@ -7,12 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D2AD2A819F93E1900046E7A /* AddVacationInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2AD2A719F93E1900046E7A /* AddVacationInfo.swift */; };
+		1D2AD2AA19F93EB500046E7A /* VacationListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2AD2A919F93EB500046E7A /* VacationListTableViewController.swift */; };
+		1D2AD2AC19F9FE4B00046E7A /* Vacation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2AD2AB19F9FE4B00046E7A /* Vacation.swift */; };
 		1D6A207319F925C6000B2FE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6A207219F925C6000B2FE0 /* AppDelegate.swift */; };
 		1D6A207519F925C6000B2FE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6A207419F925C6000B2FE0 /* ViewController.swift */; };
 		1D6A207819F925C6000B2FE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D6A207619F925C6000B2FE0 /* Main.storyboard */; };
 		1D6A207A19F925C6000B2FE0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D6A207919F925C6000B2FE0 /* Images.xcassets */; };
 		1D6A207D19F925C6000B2FE0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D6A207B19F925C6000B2FE0 /* LaunchScreen.xib */; };
 		1D6A208919F925C6000B2FE0 /* VacationListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6A208819F925C6000B2FE0 /* VacationListTests.swift */; };
+		AF6A1DC01A5C340F00220367 /* 熊大.png in Resources */ = {isa = PBXBuildFile; fileRef = AF6A1DBF1A5C340F00220367 /* 熊大.png */; };
+		AF6A1DC21A5C342000220367 /* 吉吉国王.png in Resources */ = {isa = PBXBuildFile; fileRef = AF6A1DC11A5C342000220367 /* 吉吉国王.png */; };
+		AF716A711A5D622E00ADD147 /* bk01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AF716A701A5D622E00ADD147 /* bk01.mp3 */; };
+		AF716A731A5D718800ADD147 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF716A721A5D718800ADD147 /* Page.swift */; };
+		AF716A7D1A5D80A400ADD147 /* 001.png in Resources */ = {isa = PBXBuildFile; fileRef = AF716A7A1A5D80A400ADD147 /* 001.png */; };
+		AF716A7E1A5D80A400ADD147 /* 002.png in Resources */ = {isa = PBXBuildFile; fileRef = AF716A7B1A5D80A400ADD147 /* 002.png */; };
+		AF716A7F1A5D80A400ADD147 /* 003.png in Resources */ = {isa = PBXBuildFile; fileRef = AF716A7C1A5D80A400ADD147 /* 003.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D2AD2A719F93E1900046E7A /* AddVacationInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddVacationInfo.swift; sourceTree = "<group>"; };
+		1D2AD2A919F93EB500046E7A /* VacationListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VacationListTableViewController.swift; sourceTree = "<group>"; };
+		1D2AD2AB19F9FE4B00046E7A /* Vacation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vacation.swift; sourceTree = "<group>"; };
 		1D6A206D19F925C6000B2FE0 /* VacationList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VacationList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D6A207119F925C6000B2FE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D6A207219F925C6000B2FE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +49,13 @@
 		1D6A208219F925C6000B2FE0 /* VacationListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VacationListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D6A208719F925C6000B2FE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D6A208819F925C6000B2FE0 /* VacationListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VacationListTests.swift; sourceTree = "<group>"; };
+		AF6A1DBF1A5C340F00220367 /* 熊大.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "熊大.png"; sourceTree = "<group>"; };
+		AF6A1DC11A5C342000220367 /* 吉吉国王.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "吉吉国王.png"; sourceTree = "<group>"; };
+		AF716A701A5D622E00ADD147 /* bk01.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bk01.mp3; sourceTree = "<group>"; };
+		AF716A721A5D718800ADD147 /* Page.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		AF716A7A1A5D80A400ADD147 /* 001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 001.png; sourceTree = "<group>"; };
+		AF716A7B1A5D80A400ADD147 /* 002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 002.png; sourceTree = "<group>"; };
+		AF716A7C1A5D80A400ADD147 /* 003.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 003.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,9 +97,15 @@
 		1D6A206F19F925C6000B2FE0 /* VacationList */ = {
 			isa = PBXGroup;
 			children = (
+				AF716A6D1A5D61C400ADD147 /* Music */,
+				AF6A1DBE1A5C2EF700220367 /* Pic */,
 				1D6A207219F925C6000B2FE0 /* AppDelegate.swift */,
+				1D2AD2AB19F9FE4B00046E7A /* Vacation.swift */,
+				AF716A721A5D718800ADD147 /* Page.swift */,
+				1D2AD2A719F93E1900046E7A /* AddVacationInfo.swift */,
 				1D6A207419F925C6000B2FE0 /* ViewController.swift */,
 				1D6A207619F925C6000B2FE0 /* Main.storyboard */,
+				1D2AD2A919F93EB500046E7A /* VacationListTableViewController.swift */,
 				1D6A207919F925C6000B2FE0 /* Images.xcassets */,
 				1D6A207B19F925C6000B2FE0 /* LaunchScreen.xib */,
 				1D6A207019F925C6000B2FE0 /* Supporting Files */,
@@ -110,6 +136,26 @@
 				1D6A208719F925C6000B2FE0 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AF6A1DBE1A5C2EF700220367 /* Pic */ = {
+			isa = PBXGroup;
+			children = (
+				AF716A7A1A5D80A400ADD147 /* 001.png */,
+				AF716A7B1A5D80A400ADD147 /* 002.png */,
+				AF716A7C1A5D80A400ADD147 /* 003.png */,
+				AF6A1DC11A5C342000220367 /* 吉吉国王.png */,
+				AF6A1DBF1A5C340F00220367 /* 熊大.png */,
+			);
+			name = Pic;
+			sourceTree = "<group>";
+		};
+		AF716A6D1A5D61C400ADD147 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				AF716A701A5D622E00ADD147 /* bk01.mp3 */,
+			);
+			name = Music;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,6 +240,12 @@
 			files = (
 				1D6A207819F925C6000B2FE0 /* Main.storyboard in Resources */,
 				1D6A207D19F925C6000B2FE0 /* LaunchScreen.xib in Resources */,
+				AF716A711A5D622E00ADD147 /* bk01.mp3 in Resources */,
+				AF716A7D1A5D80A400ADD147 /* 001.png in Resources */,
+				AF716A7E1A5D80A400ADD147 /* 002.png in Resources */,
+				AF6A1DC21A5C342000220367 /* 吉吉国王.png in Resources */,
+				AF716A7F1A5D80A400ADD147 /* 003.png in Resources */,
+				AF6A1DC01A5C340F00220367 /* 熊大.png in Resources */,
 				1D6A207A19F925C6000B2FE0 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,7 +264,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D2AD2AC19F9FE4B00046E7A /* Vacation.swift in Sources */,
+				1D2AD2AA19F93EB500046E7A /* VacationListTableViewController.swift in Sources */,
+				AF716A731A5D718800ADD147 /* Page.swift in Sources */,
 				1D6A207519F925C6000B2FE0 /* ViewController.swift in Sources */,
+				1D2AD2A819F93E1900046E7A /* AddVacationInfo.swift in Sources */,
 				1D6A207319F925C6000B2FE0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,6 +395,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = VacationList/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -349,6 +406,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = VacationList/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -407,6 +465,7 @@
 				1D6A208E19F925C6000B2FE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1D6A208F19F925C6000B2FE0 /* Build configuration list for PBXNativeTarget "VacationListTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +474,7 @@
 				1D6A209119F925C6000B2FE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
